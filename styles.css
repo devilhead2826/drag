@@ -1,0 +1,43 @@
+body
+{
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+
+.source-container {
+  background-color: #f1f1f1;
+  float: left;
+  flex: 1;
+  padding: 10px;
+}
+
+.target-container {
+  background-color: #e6f7ff;
+  float: right;
+  flex: 1;
+  padding: 10px;
+}
+
+
+.draggable-item {
+  background-color: #ddd;
+  padding: 5px;
+  margin-bottom: 5px;
+  cursor: move;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+}
+
+
